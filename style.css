@@ -12,3 +12,11 @@ h1{
 background{
     color: darkgray;
 }
+p{
+    font-size: larger;
+}
+
+h1,h2,h3{
+    display: inline-block;
+    color: aqua;
+}
