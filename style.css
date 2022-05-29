@@ -6,9 +6,11 @@ body {
     background-color:dimgray
 }
 h1{
-    color:rgb(1, 2, 2)
+    color: rgb(43, 189, 226);
+    font-size: large;
     
 }
+
 background{
     color: darkgray;
 }
@@ -16,7 +18,27 @@ p{
     font-size: larger;
 }
 
-h1,h2,h3{
-    display: inline-block;
-    color: aqua;
+div>h2 {
+    color: gold;
+}
+
+footer li{
+    color: aliceblue;
+}
+#different+p{
+    color: hotpink;
+
+}
+a:link{
+    color: greenyellow;
+}
+a:visited{
+    color: deepskyblue;
+}
+#different:hover{
+    font-size: xx-large;
+}
+
+#bad:active{
+    font-style: italic;
 }
