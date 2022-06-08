@@ -1,14 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
 h1{
     border-bottom: solid 3px;
     background-color: whitesmoke;
 }
 #main{
     display: grid;
-    
    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+   text-align: center;
    align-items: center;
    justify-items: center;
-   text-align: center;
    background-color: azure;
    width: 100vw;
    
@@ -39,9 +50,9 @@ display: grid;
 }
 #psyche{
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
     align-items: center;
-   justify-items: center;
+   justify-items: center; 
    text-align: center;
    background-color: blanchedalmond;
    width: 100vw;
@@ -51,8 +62,8 @@ display: grid;
 .headline{
     font-size: 48px;
     font-family: 'Times New Roman', Times, serif;
-    justify-self: start;
-    align-self: flex-end;
+    justify-items: start;
+    align-items: end;
     grid-auto-flow: row;
 
 }
@@ -84,10 +95,26 @@ header>p{
 }
 img{
     width: 5vw;
-    
+
 }
 footer{
     border-top: solid 8px;
     font-style: italic;
     font-size: 20px;
 }
+
+@media only screen and (min-width:500px){
+    footer{
+        justify-self: start;
+    }
+
+    
+.headline{
+    justify-self: start;
+    align-self: start;
+}
+}
+
+@media only screen and (min-width:882px){
+}
+
