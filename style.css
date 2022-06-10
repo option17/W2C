@@ -13,6 +13,42 @@
 }
 }
 
+@keyframes mute {
+    0% {
+        
+        color: blueviolet;
+        }
+    25% {
+        
+        color: rgb(98, 0, 128);
+        }
+    50% {
+       
+        color: rgb(76, 0, 255);
+}
+75%{
+    color: rgb(0, 255, 128);
+}
+100%{
+    color: aquamarine;
+}
+}
+@keyframes loop {
+    0% {
+        font: 50px;
+        color: rgb(58, 226, 43);
+        }
+    50% {
+        font-size: 60px;
+        color: rgb(0, 128, 117);
+        }
+    100% {
+        font-size: 50px;
+        color: rgb(0, 251, 255);
+}
+}
+
+
 p {
     color:coral
     
@@ -67,4 +103,19 @@ animation-name: crazy;
 animation-duration: 1.5s;
 animation-timing-function: ease-in-out;
 animation-iteration-count: infinite;
+}
+h1{
+    animation-name: mute;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+#oops{
+    width: 100%;
+    height: 50px;
+    animation-name: loop;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
 }
