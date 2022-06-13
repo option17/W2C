@@ -87,7 +87,7 @@ li a {
   font-size: 14px;
   color: black;
 }
-li a:hover {
+li:hover {
   background-color: green;
   color: white;
 }
